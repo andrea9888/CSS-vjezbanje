@@ -1,0 +1,74 @@
+.first{
+    position: relative;
+    border-style: dotted solid double dashed;
+    border-color: yellow green blue red;
+    border-width: thick;
+    width: 500px;
+    height: 300px;
+    
+}
+h1{
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 5px 8px grey;
+    
+}
+h2{
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: 2px 5px 8px grey;
+}
+.second{
+    box-shadow: 0 0 0 5px red, 0 0 0 10px yellow,
+    0 0 0 15px green, 0 0 0 20px blue;
+    border-radius: 100px;
+    padding: 2px 50px 10px;
+    margin: 40px 30px;
+    
+    
+}
+input{
+    background-color: orange;
+    border-style: outset;
+    border-color: orange;
+}
+
+.third{
+    position:absolute;
+    left:450px;
+    bottom:230px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background: rgba(0,0,0, 0.5);
+    box-shadow: 0px 0px 0 5px rgba(0,0,0, 0.5);
+    border: dashed white;
+    border-radius: 90px;
+    padding: 10px 30px;
+}
+.circle1{
+    position:absolute;
+    left:420px;
+    bottom:185px;
+    background: rgba(0,0,0, 0.5);
+    box-shadow: 0px 0px 0 5px rgba(0,0,0, 0.5);
+    border: dashed white;
+    border-radius: 90px;
+    padding: 20px;
+   
+}
+.circle2{
+    position:absolute;
+    left:400px;
+    bottom:150px;
+    background: rgba(0,0,0, 0.5);
+    box-shadow: 0px 0px 0 5px rgba(0,0,0, 0.5);
+    border: dashed white;
+    border-radius: 90px;
+    padding: 10px;
+   
+
+}
