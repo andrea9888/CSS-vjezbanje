@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 5px;
+    
+}
+header {
+    margin:0;
+    padding:0;
+    background: url(../images/park.jpg);
+    background-size:cover;
+    height:30vh;
+    background-position:center bottom;
+    position: relative;
+
+}
+p{
+    
+    color:#ffffff;
+    font-size: 2rem;
+    padding-right:1rem;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+ul{
+    
+    margin:0;
+    padding:0;
+    display: flex;
+    position: fixed;
+    top: 30vh;
+    width: 100vw;   
+
+}
+li{
+    
+    display: flex;
+    border-right: 1px solid #fff;
+    justify-content: center;
+    width:100vw;
+    background: lightgrey;
+    text-transform: uppercase;
+    padding:5px;
+    
+
+    
+}
+li:last-child {
+    border-right: none;
+    
+  }
+
+li a{
+    
+    text-decoration: none;
+    color:#333; 
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
